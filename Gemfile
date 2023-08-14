@@ -72,6 +72,6 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'rubocop', '>= 1.0', '< 2.0'
-gem 'pg'
 gem 'devise', '~> 4.9', '>= 4.9.2'
+gem 'pg'
+gem 'rubocop', '>= 1.0', '< 2.0'
