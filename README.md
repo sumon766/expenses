@@ -91,9 +91,8 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:sumon766/expenses.git
 ```
--
 
 ### Install
 
@@ -106,7 +105,6 @@ Example command:
   cd my-project
   bundle install
 ```
--
 
 ### Usage
 
@@ -118,7 +116,6 @@ Example command:
 ```sh
   rails server
 ```
--
 
 ### Run tests
 
@@ -177,7 +174,7 @@ If you like this project please feel free to give me a star. And, if this projec
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for this excellent idea. Also, special thanks to the author of this design Gregoire Vella(https://www.behance.net/gregoirevella).
+I would like to thank microverse for this excellent idea. Also, special thanks to the author of this design [Gregoire Vella](https://www.behance.net/gregoirevella).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
