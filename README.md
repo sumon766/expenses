@@ -13,13 +13,11 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -174,7 +172,7 @@ If you like this project please feel free to give me a star. And, if this projec
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for this excellent idea. Also, special thanks to the author of this design [Gregoire Vella](https://www.behance.net/gregoirevella).
+I would like to thank microverse for this excellent idea. Also, special thanks to the author of this design [Gregoire Vella](https://www.behance.net/gregoirevella). His excellent design worked as a motivation to develop this app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
