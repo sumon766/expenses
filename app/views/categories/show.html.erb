@@ -1,0 +1,30 @@
+<div class="">
+  <h2 class="text-center flex-grow-1">category</h2>
+</div>
+
+<div class="">
+  <div class="card" style="width: 95%;">
+    <div class="card-header">
+      <div class="d-flex align-items-center">
+        <img src=<%= @category.icon %> class="category-icon me-4" alt="category icon">
+        <h5 class="card-title category-name fs-5 stretched-link"><%=@category.name%>'s transactions</h5>
+      </div>
+    </div>
+     <% unless @expenses.empty? %>
+        <% @expenses.each_with_index do |exp, ind| %>
+          <li class="list-group-item">
+            <div d-flex flex-column>
+              <p class="card-text gray-text">Transaction <%=ind + 1%>: <span class="fw-semibold ms-2"><%=exp.name%></span></p>
+              <p class="card-text gray-text">Amount: <span class="fw-semibold ms-2">$<%=exp.amount%></span></p>
+              <p class="card-text mt-2"><small class="text-muted"><i class="fa-regular fa-calendar me-2"></i><%=exp.created_at.strftime("%d %b %Y")%> at <%=exp.created_at.strftime("%I.%M %p")%></small></p>
+            </div>
+          </li>
+        <% end %>
+      <% else %>
+        <li class="list-group-item gray-text">You don't have transactions here yet.</li>
+      <% end %>
+    </ul>
+  </div>
+  <%= link_to 'Scan', new_expense_path, class: "scan-button" %>
+</div>
+ 
