@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
   validates :name, presence: true
 
+  has_one_attached :image
+
   has_many :categories, dependent: :delete_all
   has_many :expenses, dependent: :delete_all
 end

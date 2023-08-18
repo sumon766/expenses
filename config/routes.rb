@@ -8,3 +8,4 @@ Rails.application.routes.draw do
 
   resources :expenses, only: [:new, :create, :destroy]
 end
+
