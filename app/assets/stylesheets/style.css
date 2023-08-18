@@ -21,8 +21,9 @@ body {
   height: 100vh;
 }
 
-.login-page a, .sign-up-page a {
-    text-align: center;
+.login-page a,
+.sign-up-page a {
+  text-align: center;
 }
 
 .menu-btn {
