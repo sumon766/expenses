@@ -10,7 +10,7 @@ class ExpensesController < ApplicationController
                              category_id: category.to_i, user_id: current_user.id)
       @expense.save
     end
-    redirect_to category_path(@categories.first.to_i)
+    redirect_to categories_path
   end
 
   private
