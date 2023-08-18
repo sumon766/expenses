@@ -6,8 +6,8 @@ RSpec.describe 'categories/show', type: :view do
   context 'when there are expenses' do
     let(:expenses) do
       [
-        Expense.create(name: 'Expense 1', amount: 100, category: category, created_at: Time.now),
-        Expense.create(name: 'Expense 2', amount: 150, category: category, created_at: Time.now - 1.day)
+        Expense.create(name: 'Expense 1', amount: 100, category:, created_at: Time.now),
+        Expense.create(name: 'Expense 2', amount: 150, category:, created_at: Time.now - 1.day)
       ]
     end
 
