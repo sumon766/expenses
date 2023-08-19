@@ -58,7 +58,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://expenses-tracker-8m6v.onrender.com)
+- [Presentation Link](https://www.loom.com/share/bbcbd0912d034057927aa3af724f3499)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
