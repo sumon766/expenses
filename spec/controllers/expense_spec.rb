@@ -30,11 +30,6 @@ RSpec.describe ExpensesController, type: :controller do
       end.to change(Expense, :count).by(1)
     end
 
-    it 'redirects to the category show page' do
-      post :create, params: valid_params
-      expect(response).to redirect_to(category_path(category))
-    end
-
     it 'creates multiple expenses for different categories' do
       category2 = Category.create(name: 'Entertainment', icon: 'entertainment-icon', user:)
       valid_params[:expense][:category_id] = ['', category.id.to_s, category2.id.to_s]

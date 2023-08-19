@@ -1,4 +1,4 @@
-equire 'rails_helper'
+require 'rails_helper'
 
 RSpec.describe 'categories/show', type: :view do
   let(:category) { Category.create(name: 'Category 1', icon: 'icon1.png') }
