@@ -1,18 +1,18 @@
 databases:
-  - name: expenses_pro
-    databaseName: expenses_pro
-    user: expenses_pro_user
+  - name: expenses
+    databaseName: expenses
+    user: expenses_kloa_user
 
 services:
   - type: web
-    name: expenses-tracker
+    name: expense-tracker
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: expenses_pro
+          name: expenses
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
